@@ -1,0 +1,150 @@
+@font-face{
+    font-family: Kaushan Script;
+    src: url('./KaushanScript-Regular.otf');
+}
+
+@font-face{
+    font-family: Oswald;
+    src: url('./Oswald-Regular.ttf');
+}
+
+.add{
+    position: fixed;
+    top: 40px;
+    z-index: 99;
+
+}
+
+.add-button{
+    position: inherit;
+    right: 30px;
+}
+
+.add-button:hover{
+    color: ghostwhite;
+    background-color: cadetblue;
+}
+
+body{
+    background-color: crimson;
+    color: black;
+    font-family: Oswald, sans-serif;
+}
+
+.box{
+    background-color: ghostwhite;
+    border: 1px solid black;
+    margin: auto;
+    position: relative;
+    width: 400px;
+    z-index: 0 !important;
+}
+
+.box-header{
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.box-spacer{
+    margin: 20px auto;
+}
+
+button{
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 0;
+    font-family: Oswald, sans-serif;
+    font-weight: 700;
+}
+
+.button-wrapper{
+    bottom: 10px;
+    right: 5px;
+    position: absolute;
+}
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.delete{
+    float: right
+}
+
+.delete:hover{
+    background-color: darkred;
+    color: ghostwhite;
+}
+
+.edit{
+    float: right
+}
+
+.edit:hover{
+    background-color: olivedrab;
+    color: ghostwhite;
+}
+
+.form{
+    background-color: ghostwhite;
+    border: 1px solid black;
+    height: 300px;
+    position: fixed;
+    width: 400px;
+    z-index: 99;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top:  -220px;
+}
+
+.header-image{
+    height: 80px;
+    margin-bottom: -20px;
+    width: auto;
+}
+
+#ingredients{
+    margin: 10px 25px;
+    text-align: center;
+    width: 350px;
+}
+
+#name{
+    font-family: Oswald, sans-serif;
+    font-size: 16px;
+    margin: 10px 25px 0 25px;
+    text-align: center;
+    width:350px;
+}
+
+.save{
+    bottom: 10px;
+    right: 5px;
+    position: absolute;
+}
+
+.save:hover{
+    background-color: cadetblue;
+    color: ghostwhite;
+}
+
+textarea{
+    font-family: Oswald, sans-serif;
+    font-size: 16px;
+    height: 200px;
+    resize: none;
+}
+
+#title{
+    color: ghostwhite;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 48px;
+    text-align: center;
+}
